@@ -1,0 +1,21 @@
+{
+  "name": "s-chistogo-lista-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'пРИВЕТ!'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix",
+    "checkALL": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1"
+  }
+}

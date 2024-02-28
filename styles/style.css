@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  color: aliceblue;
+  font-family: 'Inter Regular', Arial, sans-serif;
+  background-color: #1e1e1e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+  font-weight: unset;
+  font-size: unset;
+  line-height: unset;
+}
+
+main {
+  box-sizing: border-box;
+  width: 360px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 20px;
+  background-color: #131313;
+}
+
+.header_logo-image {
+  width: 78.45px;
+  height: 15.43px;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style-type: none;
+}
+
+.header__menu-item_active {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.header__menu-link {
+  color: #f5f5f5;
+}
+
+.content-section_theme_dark {
+  color: #f5f5f5;
+  background-color: #131313;
+}
+
+.content-section_theme_bright {
+  color: #131313;
+  background-color: #fee42a;
+}
+
+.cover {
+  padding: 0 24px 30px 20px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: 20px 0;
+  background-size: 95% 100%;
+  background-origin: padding-box;
+}
+
+.cover__title {
+  font-family: 'EB Garamond Regular', Arial, sans-serif;
+  font-size: 70px;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  margin-left: 48px;
+  line-height: 70%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.intro {
+  padding: 0 20px 38px;
+  font-size: 16px;
+}
+
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  color: #ccc;
+  font-size: 16px;
+}
+
+.intro__main-text p {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.intro__title {
+  width: 203px;
+}
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.reasons {
+  display: block;
+  padding: 40px 20px;
+}
+
+.content-section__subtitle {
+  font-family: 'EB Garamond Medium', Arial, sans-serif;
+  font-size: 28px;
+}
+
+.content-section__introduction {
+  padding: 32px 0;
+  font-size: 20px;
+}
+
+.content-section__list {
+  padding-left: 16px;
+  font-size: 16px;
+}
+
+.content-section__list-item:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+.content-section__list-accent {
+  font-weight: bold;
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  list-style-type: none;
+}
+
+.card {
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.card_theme_dark {
+  background-color: rgb(52 52 52);
+}
+
+.card_theme_bright {
+  background-color: rgb(254 224 66);
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+}
+
+.card__author-name {
+  font-weight: bold;
+}
+
+.card__content {
+  padding-top: 8px;
+}
+
+.card__title {
+  font-family: 'EB Garamond Medium', Arial, sans-serif;
+  font-size: 22px;
+}
+
+.card__text {
+  padding-top: 8px;
+  font-size: 16px;
+}
+
+.card_text-only {
+  color: #131313;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.footer__links-menu {
+  color: #f5f5f5;
+  text-decoration: none;
+}
